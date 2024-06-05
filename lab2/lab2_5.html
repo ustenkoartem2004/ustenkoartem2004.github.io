@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style>
+      div{ 
+        margin: 5px;
+      }
+    </style>
+</head>
+
+<body>
+  <form action="#">
+    <h1><b>Форма регистрации пользователя</b></h1>
+      <div>
+        <label>E-mail</label>
+        <input style="margin-left: 5px;" type="email" required placeholder="Введите e-mail">
+      </div>
+      <div>
+        <label for="password">Пароль</label>
+        <input type="password" required placeholder="Введите пароль">
+      </div>
+      <div>
+        <label>Пол</label>
+          <input style="margin-left: 22px;" type="radio"><label>Мужчина</label>
+          <input type="radio"><label">Женщина</label=>
+      </div>
+      <div>
+        <label>Год рождения</label>
+        <select id="year" placeholder="Выберите год">
+          <option value="1980" selected>1980</option>
+          <option value="1981" selected>1981</option>
+          <option value="1982" selected>1982</option>
+        </select>
+      </div>
+      <div>
+        <label>Я знаю</label><br>
+        <input type="checkbox" checked disabled ><label>Русский</label><br>
+        <input type="checkbox"><label>Испанский</label><br>
+        <input type="checkbox"><label>Немецкий</label><br>
+        <input type="checkbox"><label>Английский</label><br>
+        <input type="checkbox"><label>Китайский</label>
+      </div>
+      <div>
+        <label>Обо мне</label><br>
+        <textarea placeholder="Напишите коротко о себе" style="width: 250px; height: 100px;"></textarea>
+      </div>
+      <div>
+        <button type="submit">Готово</button>
+        <button type="reset">Очистить</button>
+      </div>
+    </form>
+          
+        </form>
+    </form>
+</body>
+</html>

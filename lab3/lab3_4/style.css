@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: right;
+}
+
+h1, h2 {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    color: darkorchid;
+}
+
+em {
+    color: green;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}

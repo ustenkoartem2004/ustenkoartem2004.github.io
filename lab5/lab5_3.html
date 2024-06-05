@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Использование inline-block для построения колонок</title>
+<style>
+.container {
+font-size: 0;
+width: 100%;
+padding: 10px;
+text-align: center;
+}
+
+#left, #center, #right {
+display: inline-block;
+vertical-align: top;
+font-size: 16px;
+}
+
+#left, #right {
+width: calc((100% - 600px) / 2);
+background-color: #ccf;
+}
+
+#center {
+width: 600px;
+background-color: #cfc;
+}
+
+#right {
+background-color: #fcc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div id="left">left<br>left<br>left<br>left<br>left</div>
+<div id="center">center text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
+<div id="right">right<br>right<br>right<br>right</div>
+</div>
+</body>
+</html>

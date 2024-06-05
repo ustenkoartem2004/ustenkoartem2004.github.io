@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Использование Grid для построения колонок</title>
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr; 
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #left, #center, #right {
+    padding: 20px; 
+  }
+
+  #left {
+    background-color: #ccf; 
+  }
+
+  #center {
+    background-color: #cfc; 
+  }
+
+  #right {
+    background-color: #fcc; 
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="left">left<br>left<br>left<br>left<br>left</div>
+  <div id="center">center text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
+  <div id="right">right<br>right<br>right<br>right</div>
+</div>
+</body>
+</html>
